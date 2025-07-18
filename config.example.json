@@ -1,0 +1,56 @@
+{
+  "mining_pools": {
+    "BTC": "stratum+tcp://pool.example.com:4444",
+    "ETH": "stratum+tcp://eth-pool.example.com:4444",
+    "LTC": "stratum+tcp://ltc-pool.example.com:3333"
+  },
+  "wallet_addresses": {
+    "BTC": "YOUR_BTC_WALLET_ADDRESS_HERE",
+    "ETH": "YOUR_ETH_WALLET_ADDRESS_HERE",
+    "LTC": "YOUR_LTC_WALLET_ADDRESS_HERE"
+  },
+  "energy_cost": 0.12,
+  "max_temperature": 80,
+  "auto_switch": true,
+  "mining_settings": {
+    "max_power_consumption": 500,
+    "target_temperature": 70,
+    "hash_rate_threshold": 0.8,
+    "profitability_threshold": 0.1
+  },
+  "security": {
+    "encryption_enabled": true,
+    "api_key_required": true,
+    "session_timeout": 3600,
+    "max_failed_attempts": 5,
+    "lockout_duration": 300
+  },
+  "notifications": {
+    "email_enabled": false,
+    "email_address": "your_email@example.com",
+    "telegram_enabled": false,
+    "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "telegram_chat_id": "YOUR_TELEGRAM_CHAT_ID",
+    "discord_enabled": false,
+    "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL"
+  },
+  "api_settings": {
+    "coingecko_api_key": "YOUR_COINGECKO_API_KEY",
+    "update_interval": 60,
+    "retry_attempts": 3,
+    "timeout": 30
+  },
+  "performance": {
+    "monitoring_enabled": true,
+    "log_level": "INFO",
+    "max_log_size": "10MB",
+    "backup_logs": true
+  },
+  "ui_settings": {
+    "theme": "dark",
+    "language": "ar",
+    "currency": "USD",
+    "refresh_interval": 5000
+  }
+}
+
